@@ -1,10 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <h1>Vue3-Todo-List</h1>
-    <RouterView />
-  </div>
+  <RouterView />
 </template>
 
 <style scoped>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-import { useCounterStore } from '../store/counter'
+import { useCounterStore } from '@/store/counter'
 
 const router = useRouter()
 const toAboutView = () => {
@@ -11,7 +11,7 @@ const toAboutView = () => {
 
 // store
 const counterStore = useCounterStore()
-console.log(counterStore)
+// console.log(counterStore)
 </script>
 
 <template>
